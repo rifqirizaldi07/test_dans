@@ -1,0 +1,147 @@
+.homepage_section {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.homepage_label {
+    font-size: 16px !important;
+    color: var(--title) !important;
+    font-weight: 600 !important;
+    margin-top: 2vh;
+}
+
+.homepage_check {
+    margin-bottom: 3rem !important;
+}
+
+.homepage_check_section {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.homepage_button_section {
+    margin-bottom: 4.5rem !important;
+}
+
+.homepage_button_bg {
+    background-color: var(--button) !important;
+    border: 1px solid var(--button) !important;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    border: 2px solid var(--border) !important;
+    border-radius: 4px;
+    margin: 4px 0;
+    outline: none;
+    padding: 7px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+  
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon input[type="text"] {
+    padding-left: 25px !important;
+    font-size: 14px;
+  }
+
+.inputWithIcon svg {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    color: var(--border) !important;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.homepage_card {
+    box-shadow: 0px 1px 5px var(--border) !important;
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+}
+
+.homepage_title {
+    margin-top: 5px;
+}
+
+.homepage_section hr {
+    color: var(--border) !important
+}
+
+/* detail job pages */
+.detail_section {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.detail_section p {
+    font-size: 15px !important;
+}
+
+.detail_back {
+    color: var(--navbar);
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px !important;
+}
+
+.detail_icon_back {
+    color: var(--border);
+    font-weight: 600;
+    font-size: 17px !important;
+    margin-bottom: 3px;
+}
+
+.detail_type {
+    font-size: 13px !important;
+    color: var(--border);
+    font-weight: 500;
+}
+
+.detail_title {
+    color: var(--text) !important;
+    margin-top: -12px;
+}
+
+.detail_card_company {
+    padding: 1rem !important;
+    border: 2px solid var(--border) !important;
+}
+
+.detail_url {
+    font-size: 14px !important;
+    font-weight: 400;
+}
+
+.detail_logo {
+    height: 25vh;
+}
+
+.detail_company_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail_card_apply {
+    background-color: var(--yellow) !important;
+    padding: 1rem !important;
+    border: 2px solid var(--border) !important;
+    margin-top: 1.3rem !important;
+}
+
+@media screen and (max-width: 420px) {
+    .homepage_check {
+        margin-bottom: 0!important;
+        text-align: start !important;
+    }
+    .homepage_button_section {
+        margin-bottom: 2.5rem!important;
+    }
+    .homepage_check_section {
+        justify-content: start !important;
+    }
+}

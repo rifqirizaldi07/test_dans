@@ -1,0 +1,36 @@
+.list_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_title {
+    color: var(--navbar) !important;
+    font-weight: 650;
+    font-size: 17px !important;
+}
+
+.list_location {
+    font-size: 14px !important;
+    font-weight: 400;
+}
+
+.list_company {
+    font-size: 14px !important;
+    color: var(--border);
+}
+
+.list_section span {
+    font-weight: 500 !important;
+    color: green ;
+}
+
+.list_section a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+    .list_section {
+        display: grid;
+    }
+}
+

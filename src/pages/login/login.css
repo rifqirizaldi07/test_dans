@@ -1,0 +1,30 @@
+.card-screen {
+    border-radius: 8px!important;
+    min-height: 340px;
+    padding: 37px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)!important;
+    background: linear-gradient(153deg, #4c81b5, #18538e 100%)!important;
+  }
+  
+  .logo-screen {
+    width: 72.2px;
+    height: 83.8px;
+    object-fit: contain;
+  }
+  
+  .button-screen {
+    border-radius: 20px!important;
+    background-color: #fff!important;
+    border: 1px solid #fff!important;
+    color: #64748b!important;
+  }
+
+  .card_sosmed {
+    background: linear-gradient(153deg, #a3a5a8, #eef1f3 100%)!important;
+  }
+
+  .icon_sosmed {
+    font-size: 5em;
+    margin: 5px 25px 10px;
+    cursor: pointer;
+  }
