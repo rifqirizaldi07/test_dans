@@ -14,6 +14,9 @@ const Navbars = () => {
         <Container fluid className="px-4">
           <Navbar.Brand href="/github" className="text-white">GitHub Jobs</Navbar.Brand>
           <Navbar.Collapse className="justify-content-end">
+          <Navbar.Text>
+          <a href="/test" className="text-white p-2">Test  ||</a>
+          </Navbar.Text>
             <Navbar.Text className="text-white">
               {name} : <a href="/" className="text-white" onClick={handleLogout}>Logout</a>
             </Navbar.Text>

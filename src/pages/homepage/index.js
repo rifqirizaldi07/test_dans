@@ -20,6 +20,7 @@ const Homepage = () => {
         page: 1,
         description: "",
         location: "",
+        limit: 10,
         full_time: false
     })
 
@@ -104,7 +105,7 @@ const Homepage = () => {
                             data.loading ? <Loader /> :
                                 data.error ? <Alert variant='danger'>{data.data.message}</Alert> :
                                     !data.loading && !data.error && !isEmptyValue(data.data) &&
-                                    data.data?.filter(row => row !== null).map((row) => (
+                                    data?.data?.filter(row => row !== null).map((row) => (
                                         <div key={row.id}>
                                             <TableList tableData={row} />
                                         </div>
@@ -118,8 +119,8 @@ const Homepage = () => {
                             !data.loading && !data.error &&
                             <div className="mt-2 mb-2 d-grid justify-content-center">
                                 <Pagination
-                                    total={18}
-                                    limit={10}
+                                    total={20}
+                                    limit={param.limit}
                                     current={(param.page)}
                                     changePage={(page) => {
                                         handleChangeParam(page)
